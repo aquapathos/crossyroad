@@ -18,3 +18,26 @@
 /Users/dan/Desktop/CROSSY ROAD/Crossy Road/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/dan/Desktop/CROSSY ROAD/Crossy Road/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/dan/Desktop/CROSSY ROAD/Crossy Road/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/dan/GitHub/crossyroad/obj/Debug/Assembly-CSharp.dll
+/Users/dan/GitHub/crossyroad/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/UnityEngine.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/UnityEditor.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/Mono.Cecil.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/Unity.DataContract.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/dan/GitHub/crossyroad/Temp/bin/Debug/Mono.Cecil.Mdb.dll
