@@ -6,6 +6,7 @@ TagManager:
   tags:
   - collider
   - train
+  - coin
   layers:
   - Default
   - TransparentFX
