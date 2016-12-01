@@ -80,7 +80,6 @@ public class PlayerController : MonoBehaviour
 		isIdle = false;
 		isMoving = true;
 		jumpStart = true;
-
 	}
 
 	void CanMove ()
