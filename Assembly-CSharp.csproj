@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Crossy Road\Scripts\AnimatorController.cs" />
+     <Compile Include="Assets\Crossy Road\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Crossy Road\Scripts\Coin.cs" />
      <Compile Include="Assets\Crossy Road\Scripts\Mover.cs" />
      <Compile Include="Assets\Crossy Road\Scripts\PlayerController.cs" />
