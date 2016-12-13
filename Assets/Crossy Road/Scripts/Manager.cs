@@ -41,7 +41,7 @@ public class Manager : MonoBehaviour {
 	public void UpdateDistanceCount () {
 		Debug.Log ("Player moved forward for");
 		currentDistance += 1;
-		distance.text = distance.ToString ();
+		distance.text = currentDistance.ToString ();
 
 		// TODO: generate new level piece here
 	}
@@ -62,6 +62,7 @@ public class Manager : MonoBehaviour {
 
 	void GuiGameOver(){
 		Debug.Log ("Game over!");
+		guiGameOver.SetActive (true);
 	}
 
 	public void PlayAgain(){

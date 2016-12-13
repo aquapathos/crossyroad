@@ -24,7 +24,8 @@ public class PlayerController : MonoBehaviour
 
 	void Update ()
 	{
-//		if (!Manager.instance.CanPlay ())			return;
+		if (!Manager.instance.CanPlay ())			return;
+
 		if ( isDead ) return;
 		CanIdle ();
 		CanMove ();

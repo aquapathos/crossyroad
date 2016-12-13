@@ -14,7 +14,7 @@ public class CameraFollow : MonoBehaviour {
 
 	void Update()
 	{
-		// TODO: Manager -> CanPlay ()
+		if (!Manager.instance.CanPlay() ) return;
 
 		if (autoMove) {
 			depth = gameObject.transform.position += new Vector3 (0, 0, speed * Time.deltaTime );
