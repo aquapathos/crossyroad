@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
 
 	void Update ()
 	{
-		// TODO: Manager -> CanPlay()
+//		if (!Manager.instance.CanPlay ())			return;
 		if ( isDead ) return;
 		CanIdle ();
 		CanMove ();
@@ -120,6 +120,7 @@ public class PlayerController : MonoBehaviour
 
 	void SetMoveForwardState ()
 	{
+		Manager.instance.UpdateDistanceCount ();
 	}
 
 	void IsVisible ()
@@ -145,7 +146,7 @@ public class PlayerController : MonoBehaviour
 		ParticleSystem.EmissionModule em = particle.emission;
 		em.enabled = true;
 
-		// TODO: Manager -> GameOver()
+		Manager.instance.GameOver ();
 	}
 
 }

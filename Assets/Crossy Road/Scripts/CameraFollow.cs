@@ -6,8 +6,8 @@ public class CameraFollow : MonoBehaviour {
 
 	public bool autoMove = false;
 	public GameObject player = null;
-	public float speed = 1.0f;
-	public Vector3 offset = new Vector3 ( 1.0f, 3.9f, 0.6f );
+	public float speed = 0.25f;
+	public Vector3 offset = new Vector3 ( 1.0f, 3.9f, 0.6f );  // カメラの初期位置に合わせる 
 	public Vector3 pos = new Vector3 (0, 0, 0);
 	Vector3 depth = new Vector3 (0,0,0);
 	public Vector3 pos2 = new Vector3 (0, 0, 0);
