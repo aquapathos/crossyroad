@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Manager : MonoBehaviour {
 	public Text coin = null;  // coin counter
 	public Text distance = null;
-	public Camera camera = null;
+	public Camera maincamera = null;
 	public GameObject guiGameOver = null;
 
 	private int currentCoins = 0;
@@ -55,8 +55,8 @@ public class Manager : MonoBehaviour {
 	}
 
 	public void GameOver(){
-		camera.GetComponent<CameraShake> ().Shake ();
-		camera.GetComponent<CameraFollow> ().enabled = false;
+		maincamera.GetComponent<CameraShake> ().Shake ();
+		maincamera.GetComponent<CameraFollow> ().enabled = false;
 		GuiGameOver();
 	}
 

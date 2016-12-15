@@ -3,7 +3,6 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-
 	public float moveDistance = 1;
 	public float moveTime = 0.4f;
 	public float colliderDistCheck = 1; // この近さだと衝突したと判定する距離
@@ -14,12 +13,13 @@ public class PlayerController : MonoBehaviour
 	public bool jumpStart = false;
 	public ParticleSystem particle = null;
 	public GameObject chicken = null;
-	private Renderer renderer = null;
+	private Renderer render = null;
 	private bool isVisible = false;
 
 	void Start ()
 	{
-		renderer = chicken.GetComponent<Renderer>();
+		render = chicken.GetComponent<Renderer>();
+		isIdle = true;
 	}
 
 	void Update ()
@@ -40,6 +40,11 @@ public class PlayerController : MonoBehaviour
 				 Input.GetKeyDown (KeyCode.LeftArrow) ||
 				 Input.GetKeyDown (KeyCode.RightArrow) )
 			{
+				if ( Input.GetKeyDown (    KeyCode.UpArrow ) ) { gameObject.transform.rotation = Quaternion.Euler(0,0,0);}
+				if ( Input.GetKeyDown (  KeyCode.DownArrow ) ) { gameObject.transform.rotation = Quaternion.Euler(0,180,0);}
+				if ( Input.GetKeyDown (  KeyCode.LeftArrow ) ) { gameObject.transform.rotation = Quaternion.Euler(0,-90,0);}
+				if ( Input.GetKeyDown ( KeyCode.RightArrow ) ) { gameObject.transform.rotation = Quaternion.Euler(0,90,0);}
+
 				CheckIfCanMove ();
 			}
 		}
@@ -52,6 +57,7 @@ public class PlayerController : MonoBehaviour
 		Physics.Raycast (this.transform.position, chicken.transform.forward, out hit, colliderDistCheck );
 
 		Debug.DrawRay ( this.transform.position, chicken.transform.forward * colliderDistCheck, Color.red, 2 );
+
 
 		if ( hit.collider == null )
 		{
@@ -127,12 +133,12 @@ public class PlayerController : MonoBehaviour
 	void IsVisible ()
 	{
 
-		if ( renderer.isVisible )
+		if ( render.isVisible )
 		{
 			isVisible = true;
 		}
 
-		if ( !renderer.isVisible && isVisible )
+		if ( !render.isVisible && isVisible )
 		{
 			Debug.Log ("Player off screen. Apply GotHit()" );
 

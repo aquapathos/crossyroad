@@ -10,13 +10,13 @@ public class Mover : MonoBehaviour {
 	public bool hitBoxOnTrigger = false;
 	public GameObject moveObject = null;
 
-	private Renderer renderer = null;
+	private Renderer render = null;
 	private bool isVisible = false;
 
 
 	// Use this for initialization
 	void Start () {
-		renderer = moveObject.GetComponent<Renderer>();
+		render = moveObject.GetComponent<Renderer>();
 	}
 	
 	// Update is called once per frame
@@ -27,12 +27,12 @@ public class Mover : MonoBehaviour {
 	}
 
 	void IsVisible(){
-		if (renderer.isVisible )
+		if (render.isVisible )
 		{
 			isVisible = true;
 		}
 
-		if ( !renderer.isVisible && isVisible )
+		if ( !render.isVisible && isVisible )
 		{
 			Debug.Log ("Remove object. No longer seen by camera." );
 

@@ -3519,7 +3519,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 413305896}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &413305898
 Behaviour:
   m_ObjectHideFlags: 0
@@ -3607,10 +3607,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoMove: 1
   player: {fileID: 1537820598}
-  speed: 0.1
+  speed: 0.5
   offset: {x: 1, y: 3.9, z: 0.6}
   pos: {x: 0, y: 0, z: 0}
-  pos2: {x: 0, y: 0, z: 0}
+  depth: {x: 0, y: 0, z: 0}
 --- !u!1 &500594564
 GameObject:
   m_ObjectHideFlags: 0
@@ -4278,7 +4278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coin: {fileID: 589534655}
   distance: {fileID: 786209967}
-  camera: {fileID: 413305900}
+  maincamera: {fileID: 413305900}
   guiGameOver: {fileID: 645552666}
 --- !u!4 &938190115
 Transform:
@@ -4885,7 +4885,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2023192405}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 217832816}
@@ -4897,7 +4897,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2023192405}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!92 &2023192408
 Behaviour:
   m_ObjectHideFlags: 0
