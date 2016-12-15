@@ -66,12 +66,14 @@ public class Manager : MonoBehaviour {
 	}
 
 	public void PlayAgain(){
+		Debug.Log ("Play Again");
 		Scene scene = SceneManager.GetActiveScene ();
 		SceneManager.LoadScene (scene.name);
 	}
 
 	public void Quit(){
-		Application.Quit ();
+		Debug.Log ("Quit!");
+		Application.Quit();
 	}
 }
 
